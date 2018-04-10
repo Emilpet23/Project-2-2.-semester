@@ -459,5 +459,43 @@ margin-right: 20px;
 -----------------------------------*/
 
 .newpost {
-  margin-top: 
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.titel {
+  width: 300px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+
+.tekstboks {
+  margin-left: 20px;
+  height: 200px;
+  width: 500px;
+  margin-top: -10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.blueknap {
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.greenknap {
+  background-color: #00A19B;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  margin-left: 200px;
 }
