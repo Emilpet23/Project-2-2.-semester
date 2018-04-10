@@ -62,6 +62,7 @@ nav {
 -----------------------------------*/
 .subject-category {
   margin-left: 20px;
+  flex: 1;
 }
 
 .subject-category h1 {
@@ -98,19 +99,41 @@ nav {
   background: #00A19B;
   color: white;
   width: 100%;
-  padding: 5px;
+  padding: 7px;
   margin-top: 30px;
   border: none;
+  cursor: pointer;
+}
+
+.subject-section {
+  flex: 8;
 }
 
 .subject-section input {
-  margin-top: 25px;
   width: 200px;
+}
+
+.search-container {
+  margin-top: 25px;
   margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.searchicon {
+  width: 20px;
+  height: 20px;
 }
 
 .lessonplan-box {
   box-shadow: 0px 3px 6px #e6e6e6;
+  padding: 20px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.lessonplan-box:hover {
+  background: #F1F1F2;
 }
 
 .lessonplan-box h3 {
@@ -121,5 +144,18 @@ nav {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.center-info img {
+  margin-right: 10px;
+}
+
+.lessonplan-container {
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-wrap: wrap;
 }
