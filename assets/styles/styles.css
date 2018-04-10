@@ -176,7 +176,7 @@ nav {
 /* KEDU COMMUNITY PAGE
 -----------------------------------*/
 
-.kedu-community h1, h2 {
+.kedu-community h1, .kedu-community h2 {
   margin-left: 20px;
 }
 
@@ -288,11 +288,17 @@ margin-right: 20px;
 
 .topic-headlines {
   display: flex;
+
+}
+
+.topic-headlines p:first-child {
+  margin-left: 10px;
 }
 
 .single-topic {
   display: flex;
   align-items: center;
+  border-top: 1px solid #707070;
 }
 
 .flex-container {
@@ -300,16 +306,20 @@ margin-right: 20px;
 }
 
 .topic-container {
-  border: 1px solid gray;
+  border: 1px solid #707070;
 }
 
 .topic-section {
   flex: 4;
+  margin-right: 100px;
+  margin-left: 20px;
 }
 
 .topic-title {
   display: flex;
   align-items: center;
+  margin-left: 10px;
+  flex: 4;
 }
 
 .profile-pic {
@@ -321,6 +331,9 @@ margin-right: 20px;
 .topic-info {
   display: flex;
   margin-left: auto;
+  align-items: center;
+  flex: 2;
+  justify-content: space-between;
 }
 
 .headlines-margin {
@@ -328,6 +341,28 @@ margin-right: 20px;
   display: flex;
 }
 
+.headlines-margin p:first-child {
+  margin-right: 90px;
+}
+
+.headlines-margin p:last-child {
+  margin-right: 40px;
+}
+
+.replies-topic {
+  border-right: 1px solid #707070;
+  border-left: 1px solid #707070;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 75px;
+  width: 100px;
+  text-align: center;
+}
+
+.message-topic {
+  margin-right: 10px;
+  height: 75px;
+}
 /* Create lesson plan styles
 -----------------------------------*/
 
@@ -459,5 +494,5 @@ margin-right: 20px;
 -----------------------------------*/
 
 .newpost {
-  margin-top: 
+  margin-top:
 }
