@@ -6,6 +6,14 @@ body {
   font-family: 'lato', sans-serif;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.blue-text {
+  color: #216393;
+}
+
 
 /* navigation styles
 -----------------------------------*/
@@ -32,7 +40,7 @@ nav {
 
 .usernav a {
   text-decoration: none;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 .usernav img {
@@ -41,7 +49,7 @@ nav {
 
 .nav-list {
   display: flex;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 .nav-list li a:hover, .usernav:hover {
@@ -55,7 +63,7 @@ nav {
 
 .nav-list li a {
   text-decoration: none;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 /* Lesson plan styles
@@ -87,7 +95,7 @@ nav {
 .subjects h2 {
   text-align: center;
   background: #F1F1F2;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 .subjects li a {
@@ -100,7 +108,7 @@ nav {
   color: white;
   width: 100%;
   padding: 7px;
-  margin-top: 30px;
+  margin-top: 10px;
   border: none;
   cursor: pointer;
 }
@@ -158,4 +166,73 @@ nav {
   justify-content: space-between;
   margin-right: 20px;
   flex-wrap: wrap;
+}
+
+/* KEDU COMMUNITY PAGE
+-----------------------------------*/
+
+.kedu-community h1, h2 {
+  margin-left: 20px;
+}
+
+.welcome-box {
+  margin-left: 20px;
+  background: #044C7F;
+  margin-right: 100px;
+  color: white;
+  box-shadow: 0px 3px 6px #e6e6e6;
+  padding: 5px;
+}
+
+.community-container {
+  display: flex;
+}
+
+.kedu-community {
+  flex: 4;
+}
+
+.share-aside {
+  flex: 1;
+  margin-top: 45px;
+}
+
+.share-box {
+box-shadow: 0px 3px 6px #e6e6e6;
+padding: 10px;
+margin-right: 20px;
+}
+
+.share-box a {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.facebook-color {
+  color: #3B5998;
+}
+
+.linkenin-color {
+  color: #0077b5;
+}
+
+.subjects-community {
+  box-shadow: 0px 3px 6px #e6e6e6;
+  background: #F1F1F2;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-info {
+  flex: 4;
+  padding-left: 10px;
+}
+
+.second-info {
+  flex: 2;
 }
