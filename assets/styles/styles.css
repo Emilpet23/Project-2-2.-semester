@@ -123,3 +123,130 @@ nav {
   margin: auto;
   width: 50%;
 }
+
+/* Create lesson plan styles
+-----------------------------------*/
+
+.radio {
+  display: flex;
+  list-style: none;
+  border: 1px solid;
+  border-color: #F1F1F2;
+  width: 550px;
+}
+
+.baggrund {
+  background-color: #F1F1F2;
+  color: #044C7F;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+
+.codingradio {
+  width: 27px;
+}
+
+.treinput button {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 140px;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.treinput input {
+  height: 200px;
+  width: 500px;
+  border: none;
+  background-color: #F1F1F2;
+  margin-top: -10px;
+}
+
+.asidepublish {
+  background-color: #00A19B;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.firstbutton {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.firstbutton1 {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  font-weight: bold;
+}
+
+.clesson {
+  display: flex;
+}
+
+.sidepage img {
+  margin-left: 20px;
+}
+
+.specs input {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.sidepage h3 {
+  background-color: #F1F1F2;
+  color: #044C7F;
+  text-align: center;
+}
+
+.section-flex {
+  flex: 4;
+  margin-left: 20px;
+}
+
+.sidepage {
+  flex: 1;
+}
+
+.specs {
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.skygge {
+  width: 250px;
+  box-shadow: 0px 3px 6px #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.asidepublish {
+  margin-top: 75px;
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+}
