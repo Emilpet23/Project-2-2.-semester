@@ -6,6 +6,7 @@ body {
   font-family: 'lato', sans-serif;
 }
 
+
 /* navigation styles
 -----------------------------------*/
 nav {
@@ -41,7 +42,6 @@ nav {
 .nav-list {
   display: flex;
   color: #1E6396;
-  /*padding-right: 100px;*/
 }
 
 .nav-list li a:hover, .usernav:hover {
@@ -56,4 +56,70 @@ nav {
 .nav-list li a {
   text-decoration: none;
   color: #1E6396;
+}
+
+/* Lesson plan styles
+-----------------------------------*/
+.subject-category {
+  margin-left: 20px;
+}
+
+.subject-category h1 {
+  margin-top: 20px;
+}
+
+.subject-main {
+  display: flex;
+}
+
+.subjects {
+  box-shadow: 0px 3px 6px #e6e6e6;
+  margin-top: 30px;
+  padding: 0 5px 5px 5px;
+}
+
+.subjects li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.subjects h2 {
+  text-align: center;
+  background: #F1F1F2;
+  color: #1E6396;
+}
+
+.subjects li a {
+  text-decoration: none;
+  color: black;
+}
+
+.lessonplanBtn {
+  background: #00A19B;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  margin-top: 30px;
+  border: none;
+}
+
+.subject-section input {
+  margin-top: 25px;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.lessonplan-box {
+  box-shadow: 0px 3px 6px #e6e6e6;
+}
+
+.lessonplan-box h3 {
+  text-align: center;
+}
+
+.center-info {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 50%;
 }
