@@ -123,3 +123,21 @@ nav {
   margin: auto;
   width: 50%;
 }
+
+/* Subject page
+-----------------------------------*/
+.checked {
+  color: orange;
+}
+
+.ratingtext {
+  margin: 10px;
+  color: #999;
+}
+
+.about-box {
+  box-shadow: 0px 3px 6px #e6e6e6;
+  margin-right: 60%;
+  padding: 1px;
+  background-color: #F1F1F2
+}
