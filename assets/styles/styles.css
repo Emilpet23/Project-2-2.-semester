@@ -19,6 +19,16 @@ body {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #044c7f;
+  opacity: 0.5;
+}
+
 
 /* navigation styles
 -----------------------------------*/
@@ -89,18 +99,25 @@ nav {
 .subjects {
   box-shadow: 0px 3px 6px #e6e6e6;
   margin-top: 30px;
-  padding: 0 5px 5px 5px;
+  width: 150px;
+}
+
+.subjects ul {
+  padding-left: 30px;
+  padding-bottom: 10px;
 }
 
 .subjects li {
   list-style-type: none;
   list-style-position: inside;
+  margin-top: 5px;
 }
 
 .subjects h2 {
   text-align: center;
   background: #F1F1F2;
   color: #044c7f;
+  padding: 5px;
 }
 
 .subjects li a {
@@ -112,7 +129,7 @@ nav {
   background: #00A19B;
   color: white;
   width: 100%;
-  padding: 7px;
+  padding: 10px;
   margin-top: 10px;
   border: none;
   cursor: pointer;
@@ -187,6 +204,7 @@ nav {
   color: white;
   box-shadow: 0px 3px 6px #e6e6e6;
   padding: 5px;
+  padding-left: 10px;
 }
 
 .community-container {
@@ -218,7 +236,7 @@ margin-right: 20px;
   color: #3B5998;
 }
 
-.linkenin-color {
+.linkedin-color {
   color: #0077b5;
 }
 
@@ -255,7 +273,7 @@ margin-right: 20px;
   margin-right: 10px;
 }
 
-.pagenumber a {
+.flex-aligncenter a {
   margin-right: 5px;
   text-decoration: none;
   color: #044c7f;
@@ -281,14 +299,19 @@ margin-right: 20px;
 .pagenumber button {
   border: none;
   background: #00A19B;
-  padding: 7px;
+  padding: 10px;
   color: white;
   cursor: pointer;
 }
 
+.pagenumber .active-page {
+  background: #044c7f;
+  color: white;
+}
+
 .topic-headlines {
   display: flex;
-
+  font-weight: bold;
 }
 
 .topic-headlines p:first-child {
@@ -299,6 +322,10 @@ margin-right: 20px;
   display: flex;
   align-items: center;
   border-top: 1px solid #707070;
+}
+
+.gray-box {
+ background: #F1F1F2;
 }
 
 .flex-container {
@@ -360,8 +387,8 @@ margin-right: 20px;
 }
 
 .message-topic {
-  margin-right: 10px;
   height: 75px;
+  margin: auto;
 }
 /* Create lesson plan styles
 -----------------------------------*/
