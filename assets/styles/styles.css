@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
   font-family: 'lato', sans-serif;
 }
 
@@ -27,6 +28,23 @@ a {
 .active {
   color: #044c7f;
   opacity: 0.5;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+button {
+  font-size: 14px;
+  font-family: 'lato', sans-serif;
 }
 
 
@@ -85,7 +103,7 @@ nav {
 -----------------------------------*/
 .subject-category {
   margin-left: 20px;
-  flex: 1;
+  flex: 1.4;
 }
 
 .subject-category h1 {
@@ -128,7 +146,7 @@ nav {
 .lessonplanBtn {
   background: #00A19B;
   color: white;
-  width: 100%;
+  width: 150px;
   padding: 10px;
   margin-top: 10px;
   border: none;
@@ -161,6 +179,7 @@ nav {
   padding: 20px;
   width: 250px;
   margin-top: 30px;
+  margin-right: 20px;
 }
 
 .lessonplan-box:hover {
@@ -186,7 +205,7 @@ nav {
 .lessonplan-container {
   display: flex;
   margin-left: 100px;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   margin-right: 20px;
   flex-wrap: wrap;
 }
@@ -413,20 +432,21 @@ margin-right: 20px;
 }
 
 .codingradio {
-  width: 27px;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 
 .treinput button {
   background-color: #044C7F;
   color: white;
   border: none;
-  height: 25px;
-  width: 140px;
+  padding: 10px;
   text-align: center;
   display: block;
   margin-top: 15px;
   margin-bottom: 60px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .treinput textarea {
@@ -442,41 +462,46 @@ margin-right: 20px;
   background-color: #00A19B;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .firstbutton {
   background-color: #044C7F;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .firstbutton1 {
   background-color: #044C7F;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   margin-top: 150px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .clesson {
   display: flex;
+  width: 100%;
 }
 
 .sidepage {
+  flex: 1;
   margin-right: 20px;
 }
 
@@ -500,9 +525,6 @@ margin-right: 20px;
   margin-left: 20px;
 }
 
-.sidepage {
-  flex: 1;
-}
 
 .specs {
   width: 250px;
@@ -542,6 +564,9 @@ margin-right: 20px;
   margin-left: 20px;
   margin-top: -10px;
   margin-bottom: 35px;
+  padding-left: 5px;
+  background: #F1F1F2;
+  border: none;
 }
 
 .tekstboks {
@@ -551,6 +576,9 @@ margin-right: 20px;
   margin-top: -10px;
   display: flex;
   margin-bottom: 20px;
+  border: none;
+  padding-left: 5px;
+  background: #F1F1F2;
 }
 
 .blueknap {
@@ -558,8 +586,7 @@ margin-right: 20px;
   border: none;
   color: white;
   font-weight: bold;
-  width: 150px;
-  height: 30px;
+  padding: 10px;
   margin-left: 20px;
 }
 
@@ -568,9 +595,8 @@ margin-right: 20px;
   border: none;
   color: white;
   font-weight: bold;
-  width: 150px;
-  height: 30px;
-  margin-left: 200px;
+  padding: 10px;
+  margin-left: 335px;
 }
 
 /* FUNCTION POST
@@ -601,6 +627,7 @@ margin-right: 20px;
   display: flex;
   align-items: center;
   padding-left: 20px;
+  margin-top: 10px;
 }
 
 .comment-content p {
