@@ -853,3 +853,54 @@ margin-right: 20px;
 .side-subjectpage img {
   margin-left: 20px;
 }
+
+.commentcontainer {
+ width: 550px;
+ height: 200px;
+ border: none;
+ background-color: #F1F1F2;
+ resize: none;
+ display: flex;
+ flex-direction: column;
+ margin-top: 20px;
+}
+
+.commentbtn {
+  background-color: #00A19B;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 54px;
+  margin-bottom: 15px;
+}
+
+.textcomment {
+  width: 400px;
+  height: 100px;
+  border: 1px solid #707070;
+  background-color: white;
+  resize: none;
+  margin-left: 30px;
+}
+
+.profilepicture {
+  width: 40px;
+  height: 40px;
+}
+
+.contentimg {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.commenttitle {
+  border-bottom: 1px solid #707070;
+  margin-right: 60%;
+  margin-top: 50px;
+}
