@@ -700,7 +700,7 @@ margin-right: 20px;
 .about-box {
   box-shadow: 0px 3px 6px #e6e6e6;
   margin-right: 60%;
-  padding: 1px;
+  padding: 10px;
   background-color: #F1F1F2
 }
 
@@ -715,8 +715,8 @@ margin-right: 20px;
 }
 
 .info-pic img {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
 }
 
 .info-container p {
@@ -726,12 +726,13 @@ margin-right: 20px;
 
 .kubopic img {
   margin-top: 30px;
-  width: 300px;
-  height: 420px;
+  width: 200px;
+  height: 250px;
 }
 
 .kubopic {
   display: flex;
+  align-items: flex-end;
 }
 
 .kubo-container p {
@@ -746,22 +747,18 @@ margin-right: 20px;
 }
 
 .activity-pic img{
-  width: 400px;
-  height: 200px;
-}
-
-.activity-pic p {
-  margin-left: 130px;
+  width: 200px;
+  height: 100px;
 }
 
 .pencil-pic img {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 100px;
   margin-left: 30px;
 }
 
 .pencil-pic p {
-  margin-left: 160px;
+  margin-left: 30px;
 }
 
 
@@ -836,7 +833,7 @@ margin-right: 20px;
   align-items: center;
   text-align: center;
   margin: auto;
-  width: 60%;
+  width: 70%;
 }
 
 .side-subjectpage h3 {
@@ -856,7 +853,7 @@ margin-right: 20px;
 }
 
 .commentcontainer {
- width: 550px;
+ width: 70%;
  height: 200px;
  border: none;
  background-color: #F1F1F2;
@@ -874,7 +871,7 @@ margin-right: 20px;
   display: block;
   font-weight: bold;
   margin-left: auto;
-  margin-right: 54px;
+  margin-right: 20px;
   margin-bottom: 15px;
 }
 
@@ -902,6 +899,6 @@ margin-right: 20px;
 
 .commenttitle {
   border-bottom: 1px solid #707070;
-  margin-right: 60%;
+  width: 70%;
   margin-top: 50px;
 }
