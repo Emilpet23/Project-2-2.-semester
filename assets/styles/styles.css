@@ -679,10 +679,13 @@ margin-right: 20px;
 
 .side-subjectpage {
   flex: 1;
+  margin-top: 140px;
+  margin-right: 20px;
 }
 
 .allsubjectcontainer {
   display: flex;
+  width: 100%;
 }
 
 .checked {
@@ -845,8 +848,4 @@ margin-right: 20px;
 
 .side-subjectpage img {
   margin-left: 20px;
-}
-
-.side-subjectpage {
-  margin-top: 140px;
 }
