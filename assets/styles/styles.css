@@ -769,8 +769,8 @@ margin-right: 20px;
   background-color: #00A19B;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
@@ -780,8 +780,8 @@ margin-right: 20px;
   background-color: #00A19B;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
@@ -791,8 +791,8 @@ margin-right: 20px;
   background-color: #044C7F;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
@@ -802,8 +802,8 @@ margin-right: 20px;
   background-color: #EF4360;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
@@ -813,21 +813,21 @@ margin-right: 20px;
   background-color: #3B5998;
   color: white;
   border: none;
-  height: 45px;
-  width: 250px;
+  padding: 10px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 .shadow {
-  width: 250px;
+  width: 100%;
   box-shadow: 0px 3px 6px #e6e6e6;
   margin-bottom: 20px;
 }
 
 .specific {
-  width: 250px;
+  width: 100%;
   padding-bottom: 20px;
 }
 
@@ -843,6 +843,7 @@ margin-right: 20px;
   background-color: #F1F1F2;
   color: #044C7F;
   text-align: center;
+  width: 100%;
 }
 
 .side-subjectpage p {
