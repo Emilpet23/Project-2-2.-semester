@@ -704,6 +704,10 @@ margin-right: 20px;
   background-color: #F1F1F2
 }
 
+.goalstext {
+  margin-top: 50px;
+}
+
 .info-container {
   display: flex;
   justify-content: flex-start;
