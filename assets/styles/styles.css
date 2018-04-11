@@ -584,3 +584,59 @@ margin-right: 20px;
   padding: 1px;
   background-color: #F1F1F2
 }
+
+.info-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.info-pic img {
+  width: 180px;
+  height: 180px;
+}
+
+.info-container p {
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.kubopic img {
+  margin-top: 30px;
+  width: 300px;
+  height: 420px;
+}
+
+.kubopic {
+  display: flex;
+}
+
+.kubo-container p {
+  margin-top: 200px;
+  margin-left: 10px;
+}
+
+.activity-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.activity-pic img{
+  width: 400px;
+  height: 200px;
+}
+
+.activity-pic p {
+  margin-left: 130px;
+}
+
+.pencil-pic img {
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.pencil-pic p {
+  margin-left: 160px;
+}
