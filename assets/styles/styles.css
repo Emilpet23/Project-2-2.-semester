@@ -6,6 +6,29 @@ body {
   font-family: 'lato', sans-serif;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.blue-text {
+  color: #216393;
+}
+
+.flex-aligncenter {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #044c7f;
+  opacity: 0.5;
+}
+
 
 /* navigation styles
 -----------------------------------*/
@@ -32,7 +55,7 @@ nav {
 
 .usernav a {
   text-decoration: none;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 .usernav img {
@@ -41,7 +64,7 @@ nav {
 
 .nav-list {
   display: flex;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 .nav-list li a:hover, .usernav:hover {
@@ -55,13 +78,14 @@ nav {
 
 .nav-list li a {
   text-decoration: none;
-  color: #1E6396;
+  color: #044c7f;
 }
 
 /* Lesson plan styles
 -----------------------------------*/
 .subject-category {
   margin-left: 20px;
+  flex: 1;
 }
 
 .subject-category h1 {
@@ -75,18 +99,25 @@ nav {
 .subjects {
   box-shadow: 0px 3px 6px #e6e6e6;
   margin-top: 30px;
-  padding: 0 5px 5px 5px;
+  width: 150px;
+}
+
+.subjects ul {
+  padding-left: 30px;
+  padding-bottom: 10px;
 }
 
 .subjects li {
   list-style-type: none;
   list-style-position: inside;
+  margin-top: 5px;
 }
 
 .subjects h2 {
   text-align: center;
   background: #F1F1F2;
-  color: #1E6396;
+  color: #044c7f;
+  padding: 5px;
 }
 
 .subjects li a {
@@ -98,19 +129,41 @@ nav {
   background: #00A19B;
   color: white;
   width: 100%;
-  padding: 5px;
-  margin-top: 30px;
+  padding: 10px;
+  margin-top: 10px;
   border: none;
+  cursor: pointer;
+}
+
+.subject-section {
+  flex: 8;
 }
 
 .subject-section input {
-  margin-top: 25px;
   width: 200px;
+}
+
+.search-container {
+  margin-top: 25px;
   margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.searchicon {
+  width: 20px;
+  height: 20px;
 }
 
 .lessonplan-box {
   box-shadow: 0px 3px 6px #e6e6e6;
+  padding: 20px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.lessonplan-box:hover {
+  background: #F1F1F2;
 }
 
 .lessonplan-box h3 {
@@ -121,7 +174,397 @@ nav {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.center-info img {
+  margin-right: 10px;
+}
+
+.lessonplan-container {
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+/* KEDU COMMUNITY PAGE
+-----------------------------------*/
+
+.kedu-community h1, .kedu-community h2 {
+  margin-left: 20px;
+}
+
+.welcome-box {
+  margin-left: 20px;
+  background: #044C7F;
+  margin-right: 100px;
+  color: white;
+  box-shadow: 0px 3px 6px #e6e6e6;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.community-container {
+  display: flex;
+}
+
+.kedu-community {
+  flex: 4;
+}
+
+.share-aside {
+  flex: 1;
+  margin-top: 45px;
+}
+
+.share-box {
+box-shadow: 0px 3px 6px #e6e6e6;
+padding: 10px;
+margin-right: 20px;
+}
+
+.share-box a {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.facebook-color {
+  color: #3B5998;
+}
+
+.linkedin-color {
+  color: #0077b5;
+}
+
+.subjects-community {
+  box-shadow: 0px 3px 6px #e6e6e6;
+  background: #F1F1F2;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-info {
+  flex: 4;
+  padding-left: 10px;
+}
+
+.second-info {
+  flex: 2;
+}
+
+/* CODING TOPIC PAGE
+-----------------------------------*/
+
+.pagenumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagenumber p {
+  margin-right: 10px;
+}
+
+.flex-aligncenter a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #044c7f;
+  border: 1px solid #044c7f;
+  border-radius: 50%;
+  padding: 0px 5px;
+}
+
+.pagenumber a:hover {
+  background: #044c7f;
+  color: white;
+}
+
+.pagenumber .pagenumber-next {
+  border: none;
+}
+
+.pagenumber .pagenumber-next:hover {
+  border: 1px solid #044c7f;
+  border-radius: 0;
+}
+
+.pagenumber button {
+  border: none;
+  background: #00A19B;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.pagenumber .active-page {
+  background: #044c7f;
+  color: white;
+}
+
+.topic-headlines {
+  display: flex;
+  font-weight: bold;
+}
+
+.topic-headlines p:first-child {
+  margin-left: 10px;
+}
+
+.single-topic {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #707070;
+}
+
+.gray-box {
+ background: #F1F1F2;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.topic-container {
+  border: 1px solid #707070;
+}
+
+.topic-section {
+  flex: 4;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+.topic-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex: 4;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.topic-info {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.headlines-margin {
+  margin-left: auto;
+  display: flex;
+}
+
+.headlines-margin p:first-child {
+  margin-right: 90px;
+}
+
+.headlines-margin p:last-child {
+  margin-right: 40px;
+}
+
+.replies-topic {
+  border-right: 1px solid #707070;
+  border-left: 1px solid #707070;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 75px;
+  width: 100px;
+  text-align: center;
+}
+
+.message-topic {
+  height: 75px;
+  margin: auto;
+}
+/* Create lesson plan styles
+-----------------------------------*/
+
+.radio {
+  display: flex;
+  list-style: none;
+  border: 1px solid;
+  border-color: #F1F1F2;
+  width: 550px;
+}
+
+.baggrund {
+  background-color: #F1F1F2;
+  color: #044C7F;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+
+.codingradio {
+  width: 27px;
+}
+
+.treinput button {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 140px;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.treinput textarea {
+  height: 200px;
+  width: 500px;
+  border: none;
+  background-color: #F1F1F2;
+  margin-top: -10px;
+  resize: none;
+}
+
+.asidepublish {
+  background-color: #00A19B;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.firstbutton {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.firstbutton1 {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  font-weight: bold;
+}
+
+.clesson {
+  display: flex;
+}
+
+.sidepage img {
+  margin-left: 20px;
+}
+
+.specs input {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.sidepage h3 {
+  background-color: #F1F1F2;
+  color: #044C7F;
+  text-align: center;
+}
+
+.section-flex {
+  flex: 4;
+  margin-left: 20px;
+}
+
+.sidepage {
+  flex: 1;
+}
+
+.specs {
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.skygge {
+  width: 250px;
+  box-shadow: 0px 3px 6px #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.asidepublish {
+  margin-top: 75px;
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+}
+
+/* New post styles
+-----------------------------------*/
+
+.newpost {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.newpost-main h2 {
+  margin-left: 20px;
+}
+
+.titel {
+  width: 300px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+
+.tekstboks {
+  margin-left: 20px;
+  height: 200px;
+  width: 500px;
+  margin-top: -10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.blueknap {
+  background-color: #044C7F;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.greenknap {
+  background-color: #00A19B;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  margin-left: 200px;
 }
 
 /* Subject page
