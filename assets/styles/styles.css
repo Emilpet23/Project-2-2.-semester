@@ -672,6 +672,20 @@ margin-right: 20px;
 
 /* Subject page
 -----------------------------------*/
+.aboutsection {
+  display: flex;
+  flex: 4;
+
+}
+
+.side-subjectpage {
+  flex: 1;
+}
+
+.allsubjectcontainer {
+  display: flex;
+}
+
 .checked {
   color: orange;
 }
@@ -742,4 +756,98 @@ margin-right: 20px;
 
 .pencil-pic p {
   margin-left: 160px;
+}
+
+
+.subjectbtn {
+  background-color: #00A19B;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subjectbtn1 {
+  background-color: #00A19B;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.editbtn {
+  background-color: #044C7F;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.deletebtn {
+  background-color: #EF4360;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sharebtn {
+  background-color: #3B5998;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 250px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.shadow {
+  width: 250px;
+  box-shadow: 0px 3px 6px #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.specific {
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.side-subjectpage h3 {
+  background-color: #F1F1F2;
+  color: #044C7F;
+  text-align: center;
+}
+
+.side-subjectpage p {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.side-subjectpage img {
+  margin-left: 20px;
+}
+
+.side-subjectpage {
+  margin-top: 140px;
 }
