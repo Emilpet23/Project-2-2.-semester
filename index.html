@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>Lesson Plans - KEDU</title>
   </head>
-  <body>
+  <body onload="codingClick(); allButtonClick()">
     <nav>
       <a href="index.html"> <img src="assets/images/KEDULogo.png" alt="KEDU logo" class="kedulogo"></a>
       <ul class="nav-list">
@@ -34,8 +34,8 @@
           <h2>Subjects</h2>
 
           <ul>
-            <li><a href="#">All</a></li>
-            <li><a href="#">Coding</a></li>
+            <li><a href="#" class="allbtn">All</a></li>
+            <li><a href="#" class="codingbtn">Coding</a></li>
             <li><a href="#">Math</a></li>
             <li><a href="#">Science</a></li>
             <li><a href="#">Spelling</a></li>
@@ -67,7 +67,7 @@
           </ul>
         </div>
 
-        <div class="subjects">
+        <div class="subjects marginbody">
           <h2>Approval</h2>
 
           <ul>
@@ -86,7 +86,7 @@
 
 
         <div class="lessonplan-container">
-          <div class="lessonplan-box">
+          <div class="lessonplan-box all">
             <h3>Learn Basic Multiplication</h3>
 
             <div class="center-info">
@@ -102,7 +102,7 @@
             </div>
           </div>
 
-          <div class="lessonplan-box">
+          <div class="lessonplan-box coding all">
             <a href="subjectpage.html" class="lessonplan-link">
               <h3>Learn Basics Of Coding</h3>
 
@@ -120,7 +120,7 @@
             </a>
           </div>
 
-          <div class="lessonplan-box">
+          <div class="lessonplan-box all">
             <h3>Learn To Spell</h3>
 
             <div class="center-info">
@@ -136,7 +136,7 @@
             </div>
           </div>
 
-          <div class="lessonplan-box">
+          <div class="lessonplan-box coding all">
             <h3>Learn Functions And Loops</h3>
 
             <div class="center-info">
@@ -152,7 +152,7 @@
             </div>
           </div>
 
-          <div class="lessonplan-box">
+          <div class="lessonplan-box all">
             <h3>Learn Basic Division</h3>
 
             <div class="center-info">
@@ -168,7 +168,7 @@
             </div>
           </div>
 
-          <div class="lessonplan-box">
+          <div class="lessonplan-box all">
             <h3>Learn Basic Subtraction</h3>
 
             <div class="center-info">

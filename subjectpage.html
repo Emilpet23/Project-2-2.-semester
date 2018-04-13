@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Learn The Basics Of Coding - KEDU</title>
   </head>
-  <body onload="commentFunction(); lessonplanDl(); worksheetplanDl()">
+  <body onload="buildComment(); commentEvent(); lessonplanDl(); worksheetplanDl(); deleteClick()">
     <nav>
       <a href="index.html"> <img src="assets/images/KEDULogo.png" alt="KEDU logo" class="kedulogo"></a>
       <ul class="nav-list">
@@ -39,7 +39,7 @@
           <span class="fa fa-star"></span>
           <span class="ratingtext">3 stars based on 69 ratings.</span>
         </div>
-
+        <p class="graytext">Made by Anne-Sofie Nielsen</p>
 
       <h2>About</h2>
       <div class="about-box">
@@ -115,6 +115,7 @@
       <button type="button" name="button" class="commentbtn">Send</button>
     </div>
 
+
     <div class="post-container-subjects">
       <div class="comment-box">
         <div class="comment-user">
@@ -132,7 +133,7 @@
     </div>
 
       <div class="post-container-subjects">
-        <div class="comment-box">
+        <div class="comment-box marginbody">
           <div class="comment-user">
             <h3>Hans Andersen</h3>
             <p>March 22, 2018</p>
