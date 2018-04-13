@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Learn The Basics Of Coding - KEDU</title>
   </head>
-  <body>
+  <body onload="commentFunction(); lessonplanDl(); worksheetplanDl()">
     <nav>
       <a href="index.html"> <img src="assets/images/KEDULogo.png" alt="KEDU logo" class="kedulogo"></a>
       <ul class="nav-list">
         <li><a href="#">DASHBOARD</a></li>
         <li><a href="index.html" class="active">LESSON PLANS</a></li>
-        <li><a href="#">TRAINING</a></li>
         <li><a href="#">FAQ</a></li>
         <li><a href="#">MANUALS</a></li>
         <li><a href="communitypage.html">COMMUNITY</a></li>
@@ -28,9 +27,9 @@
 
 <div class="allsubjectcontainer">
   <section class="aboutsection">
-    <main class="subject-main">
+    <div class="subject-main">
       <aside class="subject-category">
-        <h1>Learn the basics of coding</h1>
+        <h1>Learn The Basics Of Coding</h1>
 
         <div class="rating">
           <span class="fa fa-star checked"></span>
@@ -105,7 +104,7 @@
 
 
     <div class="commenttitle">
-      <h3>2 comments</h3>
+      <h3> Comments</h3>
     </div>
 
     <div class="commentcontainer">
@@ -120,7 +119,7 @@
       <div class="comment-box">
         <div class="comment-user">
           <h3>Anne-Sofie Nielsen</h3>
-          <p>March 21th, 2018</p>
+          <p>March 21, 2018</p>
         </div>
 
         <div class="comment-content">
@@ -130,12 +129,13 @@
 
         <button type="button" name="button">Reply</button>
       </div>
+    </div>
 
       <div class="post-container-subjects">
         <div class="comment-box">
           <div class="comment-user">
             <h3>Hans Andersen</h3>
-            <p>March 22th, 2018</p>
+            <p>March 22, 2018</p>
           </div>
 
           <div class="comment-content">
@@ -145,7 +145,9 @@
 
           <button type="button" name="button">Reply</button>
         </div>
-
+      </div>
+    </aside>
+  </div>
 
 </section>
 
@@ -189,6 +191,6 @@
 </div>
 
 
-
+<script src="assets/js/main.js"></script>
   </body>
 </html>

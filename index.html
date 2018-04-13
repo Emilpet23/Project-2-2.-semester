@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <title></title>
+    <title>Lesson Plans - KEDU</title>
   </head>
   <body>
     <nav>
@@ -13,7 +13,6 @@
       <ul class="nav-list">
         <li><a href="#">DASHBOARD</a></li>
         <li><a href="#" class="active">LESSON PLANS</a></li>
-        <li><a href="#">TRAINING</a></li>
         <li><a href="#">FAQ</a></li>
         <li><a href="#">MANUALS</a></li>
         <li><a href="communitypage.html">COMMUNITY</a></li>
@@ -28,7 +27,7 @@
       <aside class="subject-category">
         <h1>Lesson Plans</h1>
 
-        <a href="createlesson.html"><button type="button" name="button" class="lessonplanBtn">+ Create Lesson Plan</button></a>
+        <button type="button" name="button" class="lessonplanBtn" onclick="window.location.href='createlesson.html'">+ Create Lesson Plan</button>
 
 
         <div class="subjects">
@@ -68,6 +67,15 @@
           </ul>
         </div>
 
+        <div class="subjects">
+          <h2>Approval</h2>
+
+          <ul>
+            <li><a href="#">KEDU Approved</a></li>
+            <li><a href="#">Community Made</a></li>
+          </ul>
+        </div>
+
       </aside>
 
       <section class="subject-section">
@@ -95,19 +103,21 @@
           </div>
 
           <div class="lessonplan-box">
-            <a href="subjectpage.html"><h3>Learn The Basics Of Coding</h3></a>
+            <a href="subjectpage.html" class="lessonplan-link">
+              <h3>Learn Basics Of Coding</h3>
 
-            <div class="center-info">
-              <img src="assets/images/book.png" alt="Subject icon">Coding
-            </div>
+              <div class="center-info">
+                <img src="assets/images/book.png" alt="Subject icon">Coding
+              </div>
 
-            <div class="center-info">
-              <img src="assets/images/Clock.png" alt="Subject icon">120 Minutes
-            </div>
+              <div class="center-info">
+                <img src="assets/images/Clock.png" alt="Subject icon">120 Minutes
+              </div>
 
-            <div class="center-info">
-              <img src="assets/images/Grade.png" alt="Subject icon">2. Grade
-            </div>
+              <div class="center-info">
+                <img src="assets/images/Grade.png" alt="Subject icon">2. Grade
+              </div>
+            </a>
           </div>
 
           <div class="lessonplan-box">
@@ -176,5 +186,6 @@
         </div>
       </section>
     </main>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

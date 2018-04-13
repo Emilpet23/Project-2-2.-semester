@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <title></title>
+    <title>Create Lesson - KEDU</title>
   </head>
   <body>
 
@@ -14,7 +14,6 @@
       <ul class="nav-list">
         <li><a href="#">DASHBOARD</a></li>
         <li><a href="index.html" class="active">LESSON PLANS</a></li>
-        <li><a href="#">TRAINING</a></li>
         <li><a href="#">FAQ</a></li>
         <li><a href="#">MANUALS</a></li>
         <li><a href="communitypage.html">COMMUNITY</a></li>
@@ -30,10 +29,10 @@
       <h1 class="calp">Create A Lesson Plan</h1>
 
       <form class="radio">
-        <li class="baggrund">Choose A Subject</li>
-        <input type="radio" name="subjects" class="codingradio">Coding</br>
-        <input type="radio" name="subjects" class="codingradio">Math</br>
-        <input type="radio" name="subjects" class="codingradio">Science</br>
+        <h2 class="baggrund">Choose A Subject</h2>
+        <input type="radio" name="subjects" class="codingradio">Coding<br>
+        <input type="radio" name="subjects" class="codingradio">Math<br>
+        <input type="radio" name="subjects" class="codingradio">Science<br>
         <input type="radio" name="subjects" class="codingradio">Spelling
       </form>
 
@@ -61,20 +60,21 @@
         <h3>Specifications</h3>
         <div class="alignment">
         <img src="assets/images/Clock.png" alt="Subject icon">
-        <input type="text" name="">
+        <input type="text" name="Duration">
         </div>
       </div>
 
       <div class="specs">
         <div class="alignment">
         <img src="assets/images/Grade.png" alt="Subject icon">
-        <input type="text" name="">
+        <input type="text" name="Grade">
         </div>
       </div>
       </div>
 
-      <a href="index.html">  <button type="button" name="button" class="asidepublish">Publish</button></a>
+      <button type="button" name="button" class="asidepublish" onclick="window.location.href='index.html'">Publish</button>
     </aside>
     </main>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
