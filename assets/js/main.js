@@ -95,9 +95,10 @@ function lessonPlans() {
   for (var i = 0; i < lessonplans.length; i++) {
     if (lessonplans[i].classList.contains("coding")) {
       lessonplans[i].classList.add("showlesson");
-      lessonplans[i].classList.add("coding");
+      lessonplans[i].classList.remove("hidelesson");
     } else {
       lessonplans[i].classList.add("hidelesson");
+      lessonplans[i].classList.remove("showlesson");
     }
     }
   }
@@ -182,4 +183,37 @@ function newTopic() {
     topicInfo.appendChild(lastMessage);
     divElm.appendChild(topicInfo);
   }
+}
+
+function searchClick() {
+  var searchIcon = document.querySelector(".searchclick");
+  searchIcon.addEventListener("click", function() {
+      var searchInput = document.querySelector(".searchvalue").value;
+    searchbar();
+  });
+}
+
+function searchbar() {
+  var searchInput = document.querySelector(".searchvalue").value;
+
+  function capitalize_Words(str)
+  {
+   return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+  }
+
+var capInput = capitalize_Words(searchInput);
+
+  var lessonplans = document.querySelectorAll(".lessonplan-box");
+
+  var headline = document.querySelectorAll(".headline");
+
+for (var i = 0; i < lessonplans.length; i++) {
+  if (headline[i].innerText.includes(capInput) || lessonplans[i].classList.contains(searchInput)) {
+    lessonplans[i].classList.add("showlesson");
+    lessonplans[i].classList.remove("hidelesson");
+  } else {
+    lessonplans[i].classList.add("hidelesson");
+    lessonplans[i].classList.remove("showlesson");
+  }
+}
 }

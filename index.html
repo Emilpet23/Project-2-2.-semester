@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>Lesson Plans - KEDU</title>
   </head>
-  <body onload="codingClick(); allButtonClick()">
+  <body onload="codingClick(); allButtonClick(); searchClick()">
     <nav>
       <a href="index.html"> <img src="assets/images/KEDULogo.png" alt="KEDU logo" class="kedulogo"></a>
       <ul class="nav-list">
@@ -80,14 +80,14 @@
 
       <section class="subject-section">
         <div class="search-container">
-          <input type="search" name="search" value="" placeholder="Seach For Lesson Plans...">
-          <a href="#"><img src="assets/images/searchicon.png" alt="Search icon" class="searchicon"></a>
+          <input type="search" name="search" value="" placeholder="Seach For Lesson Plans..." class="searchvalue">
+          <a href="#" class="searchclick"><img src="assets/images/searchicon.png" alt="Search icon" class="searchicon"></a>
         </div>
 
 
         <div class="lessonplan-container">
-          <div class="lessonplan-box all">
-            <h3>Learn Basic Multiplication</h3>
+          <div class="lessonplan-box all math">
+            <h3 class="headline">Learn Basic Multiplication</h3>
 
             <div class="center-info">
               <img src="assets/images/book.png" alt="Subject icon">Math
@@ -104,7 +104,7 @@
 
           <div class="lessonplan-box coding all">
             <a href="subjectpage.html" class="lessonplan-link">
-              <h3>Learn Basics Of Coding</h3>
+              <h3 class="headline">Learn Basics Of Coding</h3>
 
               <div class="center-info">
                 <img src="assets/images/book.png" alt="Subject icon">Coding
@@ -120,8 +120,8 @@
             </a>
           </div>
 
-          <div class="lessonplan-box all">
-            <h3>Learn To Spell</h3>
+          <div class="lessonplan-box all spelling">
+            <h3 class="headline">Learn To Spell</h3>
 
             <div class="center-info">
               <img src="assets/images/book.png" alt="Subject icon">Spelling
@@ -137,7 +137,7 @@
           </div>
 
           <div class="lessonplan-box coding all">
-            <h3>Learn Functions And Loops</h3>
+            <h3 class="headline">Learn Functions And Loops</h3>
 
             <div class="center-info">
               <img src="assets/images/book.png" alt="Subject icon">Coding
@@ -152,8 +152,8 @@
             </div>
           </div>
 
-          <div class="lessonplan-box all">
-            <h3>Learn Basic Division</h3>
+          <div class="lessonplan-box all math">
+            <h3 class="headline">Learn Basic Division</h3>
 
             <div class="center-info">
               <img src="assets/images/book.png" alt="Subject icon">Math
@@ -168,8 +168,8 @@
             </div>
           </div>
 
-          <div class="lessonplan-box all">
-            <h3>Learn Basic Subtraction</h3>
+          <div class="lessonplan-box all math">
+            <h3 class="headline">Learn Basic Subtraction</h3>
 
             <div class="center-info">
               <img src="assets/images/book.png" alt="Subject icon">Math
